@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(img.jpg);
+  text-align: center;
+}
+
+h1{
+  font-family: 'Finger Paint', sans-serif;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  font-size: 2.5em;
+  top: 70px;
+  
+  
+}
+
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15%;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  background-color: transparent;
+  border-radius: 1rem;
+  backdrop-filter: blur(20px);
+  border: 1px solid white;
+  font-family: 'Finger Paint', sans-serif;
+  color: white;
+  font-size: 60px;
+}
+
+#reset-btn{
+  padding: 1rem 2rem;
+  color: white;
+  position:absolute;
+  bottom: 6%;
+  left: 55.5%;
+  border-radius: 9px;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-family: 'Finger Paint', sans-serif;
+
+}
+
+#new-btn{
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 9px;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-family: 'Finger Paint', sans-serif;
+  position: absolute;
+  bottom: 6%;
+  left: 36%;
+
+}
+p{
+  position: absolute;
+  left: 33%;
+  top: 2%;
+}
+
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+  font-family: 'Finger Paint', sans-serif;
+  
+  
+}
+
+
+.msg-container {
+  height: 0vmin;
+  
+}
+
+.hide {
+  display: none;
+}
+
+#logo{
+  font-family: 'Finger Paint', sans-serif;
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  right: 0.5%;
+  bottom: 0%;
+}
